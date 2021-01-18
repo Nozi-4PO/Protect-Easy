@@ -328,9 +328,9 @@ client.on('message', message => {
 })
 
 client.on('message', message => {
-  if (message.content === '.alef') {
+  if (message.content === '.nozi') {
     message.delete();
-    message.channel.send("**Alef le plus beau au monde**")
+    message.channel.send("**! " X-Nozi.#0777**")
   }
 })
 
@@ -341,7 +341,7 @@ client.on('message', message => {
     .setTitle ('**:bookmark_tabs:↭ Information AntiRaid**')
     .setDescription("**`.antiraid on` permet d'activer toute les fonctionnalités du bot (Antirole, AntiChannel, Anti Mass Ban)**")
     .setImage("https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/SID_FB_001.gif")
-    .setFooter("Protection Bot AntiRaid ┊ 2020©")
+    .setFooter("Protection Bot AntiRaid ┊ 2021©")
     message.channel.send(antiraidinfo);
   }
 })
