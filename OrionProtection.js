@@ -2,9 +2,9 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var jeu = [
     `Protéger votre serveur`,
-    "https://discord.gg/cqaczDu",
-    "https://discord.gg/cqaczDu",
-    ".invite For Add Me !",
+    "https://discord.gg/wx3hBRhwE5",
+    "CTG Guard",
+    "! " X-Nozi.#0777",
   ];
 let ban1;
 let ban2;
