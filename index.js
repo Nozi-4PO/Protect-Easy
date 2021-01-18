@@ -4,7 +4,7 @@ var jeu = [
     `Protéger votre serveur`,
     "https://discord.gg/wx3hBRhwE5",
     "CTG Guard",
-    "! " X-Nozi.#0777",
+    "Created By Nozi",
   ];
 let ban1;
 let ban2;
@@ -330,7 +330,7 @@ client.on('message', message => {
 client.on('message', message => {
   if (message.content === '.nozi') {
     message.delete();
-    message.channel.send("**! " X-Nozi.#0777**")
+    message.channel.send("**Code de premium : Groovy**")
   }
 })
 
