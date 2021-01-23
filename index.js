@@ -279,7 +279,7 @@ client.on('message', message => {
       .addField("<a:believe:800792135569899581> ┊ **Information sur l'Antiraid**", '`.info` ↆ')
       .addField("<a:believe:800792135569899581> ┊ **Inviter le bot dans votre serveur**", '`.invite` ↆ')
       .addField("<a:believe:800792135569899581> ┊ **Vérification Embed**", '`.verif` ↆ')
-      .setFooter('<a:believe:800792135569899581> ┊ Protection Bot AntiRaid ┊ 2020©')
+      .setFooter('<a:partner:800470478598438924>┊ Protection Bot AntiRaid ┊ 2020©')
   
     message.channel.send(help);    
   }
@@ -319,7 +319,7 @@ client.on('message', message => {
   if (message.content === '.verif') {
     const verif = new Discord.MessageEmbed()
     .setColor('RANDOM')
-    .setTitle ('<:warningg:756783610240958496> **__Vérification__**')
+    .setTitle ('<a:partner:800470478598438924> **__Vérification__**')
     .setDescription("**Veuillez compléter cette vérification pour avoir accès à la totalité du serveur.**")
     .setImage("https://cdn.discordapp.com/attachments/670710134015524884/736660735257739264/newcaptchaanchor-03.gif")
     .setFooter("Vérification Par Protection Bot ┊ Protection Bot AntiRaid ┊ 2021©")
