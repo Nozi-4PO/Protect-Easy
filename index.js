@@ -174,66 +174,66 @@ client.on('message', message => {
   } else {
     if (message.content === '.antirole on') {
       if(message.member.hasPermission('ADMINISTRATOR')){
-        message.reply('<:itsok:755009589425995837> **Le mode AntiRole a été activé avec succès** <:itsok:755009589425995837>')
+        message.reply('<:online_il:786325180070625311> **Le mode AntiRole a été activé avec succès** <:online_il:786325180070625311>')
         antirole = true
       } else {
-       message.reply("<:warningg:756783610240958496> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <:warningg:756783610240958496>")}
+       message.reply("<:online_il:786325180070625311> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <:online_il:786325180070625311>")}
     }
     if (message.content === '.antirole off') {
       if(message.member.hasPermission('ADMINISTRATOR')){
-        message.reply('<:warningg:756783610240958496> **Le mode AntiRole a été désactivé avec succès** <:warningg:756783610240958496>')
+        message.reply('<a:warning:802660847180447774> **Le mode AntiRole a été désactivé avec succès** <a:warning:802660847180447774>')
         antirole = false
       } else {
-        message.reply("<:warningg:756783610240958496> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <:warningg:756783610240958496>")}
+        message.reply("<a:warning:802660847180447774> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <a:warning:802660847180447774>")}
     }
     if (message.content === '.antichannel on') {
       if(message.member.hasPermission('ADMINISTRATOR')){
         message.reply('<:itsok:755009589425995837> **Le mode AntiChannel a été activé avec succès** :<:itsok:755009589425995837>')
         antichannel = true
       } else {
-        message.reply("<:warningg:756783610240958496> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <:warningg:756783610240958496>")}  
+        message.reply("<:online_il:786325180070625311> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <:online_il:786325180070625311>")}  
     }
     if (message.content === '.antichannel off') {
       if(message.member.hasPermission('ADMINISTRATOR')){
-        message.reply('<:warningg:756783610240958496> **Le mode AntiChannel a été désactivé avec succès** <:warningg:756783610240958496>')
+        message.reply('<a:warning:802660847180447774> **Le mode AntiChannel a été désactivé avec succès** <a:warning:802660847180447774>')
         antichannel = false
       } else {
-        message.reply("<:warningg:756783610240958496> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <:warningg:756783610240958496>")}
+        message.reply("<a:warning:802660847180447774> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <a:warning:802660847180447774>")}
     }
   
     if (message.content === '.antiban on') {
       if(message.member.hasPermission('ADMINISTRATOR')){
-        message.reply('<:itsok:755009589425995837> **Le mode AntiBan a été activé avec succès** <:itsok:755009589425995837>')
+        message.reply('<:online_il:786325180070625311> **Le mode AntiBan a été activé avec succès** <:online_il:786325180070625311>')
         antiban = true
       } else {
-        message.reply("<:warningg:756783610240958496> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <:warningg:756783610240958496>")} 
+        message.reply("<a:warning:802660847180447774> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <a:warning:802660847180447774>")} 
    }
     if (message.content === '.antiban off') {
       if(message.member.hasPermission('ADMINISTRATOR')){
-        message.reply('<:warningg:756783610240958496> **Le mode AntiBan a été désactivé avec succès** <:warningg:756783610240958496>')
+        message.reply('<a:warning:802660847180447774> **Le mode AntiBan a été désactivé avec succès** <a:warning:802660847180447774>')
         antiban = true
       } else {
-        message.reply("<:warningg:756783610240958496> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <:warningg:756783610240958496>")} 
+        message.reply("<a:warning:802660847180447774> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <a:warning:802660847180447774>")} 
    }
   
    if (message.content === '.antiraid on') {
     if(message.member.hasPermission('ADMINISTRATOR')){
-      message.reply('<:itsok:755009589425995837> **Le mode AntiRaid a été activé avec succès** <:itsok:755009589425995837>')
+      message.reply('<:online_il:786325180070625311> **Le mode AntiRaid a été activé avec succès** <:online_il:786325180070625311>')
       antiban = true
       antichannel = true
       antirole = true
     } else {
-      message.reply("<:warningg:756783610240958496> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <:warningg:756783610240958496>")} 
+      message.reply("<a:warning:802660847180447774> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <a:warning:802660847180447774>")} 
   }
   
   if (message.content === '.antiraid off') {
     if(message.member.hasPermission('ADMINISTRATOR')){
-      message.reply('<:warningg:756783610240958496> **Le mode AntiRaid a été désactivé avec succès** <:warningg:756783610240958496>')
+      message.reply('<a:warning:802660847180447774> **Le mode AntiRaid a été désactivé avec succès** <a:warning:802660847180447774>')
       antiban = false
       antichannel = false
       antirole = false
     } else {
-      message.reply("<:warningg:756783610240958496> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <:warningg:756783610240958496>")} 
+      message.reply("<a:warning:802660847180447774> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <a:warning:802660847180447774>")} 
   }
   
   if(antirole = true){
@@ -265,42 +265,42 @@ client.on('message', message => {
   
       message.channel.send(antiraid);    
     } else{
-      message.reply("<:warningg:756783610240958496> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <:warningg:756783610240958496>")} 
+      message.reply("<a:warning:802660847180447774> **Vous n'avez pas les permissions nécessaires pour utiliser l'Antiraid** <a:warning:802660847180447774>")} 
   }
   if (message.content === '.help') {
     const help = new Discord.MessageEmbed()
       .setColor('#RANDOM')
-      .setTitle ('**:bookmark_tabs:↭ Liste des commandes**')
+      .setTitle ('**<:emoji:802647817448718388>↭ Liste des commandes**')
       .setDescription("En ce qui concerne l'Antiraid veuillez taper la commande `.info` ─━━━━━━⊱✿⊰━━━━━━─")
-      .addField(':believe: ┊ **AntiRaid**', '`.antiraid [on/off]` ↆ')
-      .addField(':believe: ┊ **Anti Role**', '`.antirole [on/off]` ↆ')
-      .addField(':believe: ┊ **Anti Channel**', '`.antichannel [on/off]` ↆ')
-      .addField(':believe: ┊ **Anti Mass Ban**', '`.antiban [on/off]` ↆ')
-      .addField(":believe: ┊ **Information sur l'Antiraid**", '`.info` ↆ')
-      .addField(":believe: ┊ **Inviter le bot dans votre serveur**", '`.invite` ↆ')
-      .addField(":believe: ┊ **Vérification Embed**", '`.verif` ↆ')
-      .setFooter(':partner: ┊ Protection Bot AntiRaid ┊ 2020©')
+      .addField('<a:believe:800792135569899581> ┊ **AntiRaid**', '`.antiraid [on/off]` ↆ')
+      .addField('<a:believe:800792135569899581> ┊ **Anti Role**', '`.antirole [on/off]` ↆ')
+      .addField('<a:believe:800792135569899581> ┊ **Anti Channel**', '`.antichannel [on/off]` ↆ')
+      .addField('<a:believe:800792135569899581> ┊ **Anti Mass Ban**', '`.antiban [on/off]` ↆ')
+      .addField("<a:believe:800792135569899581> ┊ **Information sur l'Antiraid**", '`.info` ↆ')
+      .addField("<a:believe:800792135569899581> ┊ **Inviter le bot dans votre serveur**", '`.invite` ↆ')
+      .addField("<a:believe:800792135569899581> ┊ **Vérification Embed**", '`.verif` ↆ')
+      .setFooter('<a:believe:800792135569899581> ┊ Protection Bot AntiRaid ┊ 2020©')
   
     message.channel.send(help);    
   }
   }
 })
               client.on('message', message => {
-                if (message.content === '.younes') {
+                if (message.content === '.necroz') {
                   message.delete();
-                  message.channel.send("*Younes a été mis dans votre cul avec succès*");}})
+                  message.channel.send("*Denis Albert 24 Rue Tiergaltel Go envoyé des pizzas*");}})
 
                       client.on('message', message => {
                         if (message.content === '.info') {
                           const info = new Discord.MessageEmbed()
                           .setColor('RANDOM')
-                          .setTitle('**:bookmark_tabs:↭ Information AntiRaid**')
+                          .setTitle('**<:emoji:802647817448718388>↭ Information AntiRaid**')
                           .setDescription("**Ici seront regroupés toutes les commandes AntiRaid, et leurs help** ─━━━━━━⊱✿⊰━━━━━━─")
-                          .addField(':believe: ┊ **AntiRaid**', '`.antiraidinfo` ↆ')
-                          .addField(':believe: ┊ **Anti Role**', '`.antiroleinfo` ↆ')
-                          .addField(':believe: ┊ **Anti Channel**', '`.antichannelinfo` ↆ')
-                          .addField(':believe: ┊ **Anti Mass Ban**', '`.antibaninfo` ↆ')
-                          .setFooter(':partner: ┊ Protection Bot AntiRaid ┊ 2020©')
+                          .addField('<a:believe:800792135569899581> ┊ **AntiRaid**', '`.antiraidinfo` ↆ')
+                          .addField('<a:believe:800792135569899581> ┊ **Anti Role**', '`.antiroleinfo` ↆ')
+                          .addField('<a:believe:800792135569899581> ┊ **Anti Channel**', '`.antichannelinfo` ↆ')
+                          .addField('<a:believe:800792135569899581> ┊ **Anti Mass Ban**', '`.antibaninfo` ↆ')
+                          .setFooter('<a:believe:800792135569899581> ┊ Protection Bot AntiRaid ┊ 2021©')
                           message.channel.send(info);
 }
 })
@@ -309,8 +309,8 @@ client.on('message', message => {
   if (message.content === '.invite') {
     const invite = new Discord.MessageEmbed()
     .setColor('RANDOM')
-    .setTitle ('<a:eclair:756769714033786951> **Thanks For Adding Me !**')
-    .setDescription("**https://discord.com/api/oauth2/authorize?client_id=754324743456423987&permissions=8&scope=bot**")
+    .setTitle ('<a:eclaire:800470340370300958> **Thanks For Adding Me !**')
+    .setDescription("**https://discord.com/api/oauth2/authorize?client_id=794568483974414357&permissions=8&scope=bot**")
     message.channel.send(invite);
   }
 })
@@ -322,7 +322,7 @@ client.on('message', message => {
     .setTitle ('<:warningg:756783610240958496> **__Vérification__**')
     .setDescription("**Veuillez compléter cette vérification pour avoir accès à la totalité du serveur.**")
     .setImage("https://cdn.discordapp.com/attachments/670710134015524884/736660735257739264/newcaptchaanchor-03.gif")
-    .setFooter("Vérification Par Protection Bot ┊ Protection Bot AntiRaid ┊ 2020©")
+    .setFooter("Vérification Par Protection Bot ┊ Protection Bot AntiRaid ┊ 2021©")
     message.channel.send(verif);
   }
 })
@@ -338,7 +338,7 @@ client.on('message', message => {
   if (message.content === '.antiraidinfo') {
     const antiraidinfo = new Discord.MessageEmbed()
     .setColor('RANDOM')
-    .setTitle ('**:bookmark_tabs:↭ Information AntiRaid**')
+    .setTitle ('**<:emoji:802647817448718388>↭ Information AntiRaid**')
     .setDescription("**`.antiraid on` permet d'activer toute les fonctionnalités du bot (Antirole, AntiChannel, Anti Mass Ban)**")
     .setImage("https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/SID_FB_001.gif")
     .setFooter("Protection Bot AntiRaid ┊ 2021©")
