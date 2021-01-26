@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var jeu = [
     `Protéger votre serveur`,
-    "discord.gg/ctg",
-    "CTG Guard",
+    "discord.gg/nightzone",
+    "🌙・Night Zone",
     "X-Nozi",
   ];
 let ban1;
